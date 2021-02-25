@@ -26,31 +26,30 @@
           </tr>
         </thead>
         <tbody>
-          <tr col=>
-            <td></td>
+          
           </tr>
 
         </tbody>
       </table>
       <div id="novo-btn">
         <div id="Novo">
-          <button type="submit" id="new">Novo</button>
+          <button onclick="modal.open()" type="submit" id="new">Novo</button>
         </div>
       </div>
     </div>
 
   </main>
 
-  <div class="modal-overlay active">
+  <div class="modal-overlay">
     <div class="modal">
       <div class="header-form">
         <p class="header-form-text">CADASTRAR NOVO USUÁRIO</p>
-        <button class="close-btn" type="submit">x</button>
+        <button onclick="modal.close()" class="close-btn" type="submit">x</button>
       </div>
       <form action="" onsubmit="Form.submit(event)">
         <div class="container-form">
           <div class="img">
-            <label class="l-foto" for="">Foto</label><br>
+            <label class="" for="">Foto</label><br>
             <img src="" alt="">
             <button class="modificar-img" type="button">Modificar</button>
           </div><br>
@@ -105,6 +104,7 @@
     </div>
   </div>
 
+  <script src="./script.js"></script>
 
 </body>
 
