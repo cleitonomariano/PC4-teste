@@ -16,27 +16,87 @@
 <body>
   <main class="all">
     <div class="container">
-        <table id="data-table">
-          <thead>
-            <tr>
-              <th>NOME</th>
-              <th>CARGO</th>
-              <th>STATUS</th>
-              <th>FUNÇÃO</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr col=>
-              <td></td>
-            </tr>
+      <table id="data-table">
+        <thead>
+          <tr>
+            <th>NOME</th>
+            <th>CARGO</th>
+            <th>STATUS</th>
+            <th>FUNÇÃO</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr col=>
+            <td></td>
+          </tr>
 
-          </tbody>
-        </table>
-        <div id="calo">
-          <div id="Novo">
-            <button type="submit" id="new">Novo</button>
+        </tbody>
+      </table>
+      <div id="calo">
+        <div id="Novo">
+          <button type="submit" id="new">Novo</button>
+        </div>
+      </div>
+
+      <div class="modal-overlay ">
+        <div class="modal">
+          <div id="form">
+            
+            </div>
+            <form action="" onsubmit="Form.submit(event)">
+              <p>CADASTRAR NOVO USUÁRIO</p>
+              <div class="img">
+                <label class="foto" for="foto">Foto</label>
+                <img src="" alt="">
+                <button type="button">Modificar</button>
+              <div class="input-group">
+                <label class="sr-only" for="description">Nome</label>
+                <input type="text" id="Nome" name="Nome" placeholder="Digite o nome" />
+                <small class="help"> O campo deve conter 3 caracteres oum mais
+                </small>
+              </div>
+
+              <div class="input-group">
+                <label class="sr-only" for="amount">E-mail</label>
+                <input type="email" id="E-mail" name="E-mail" placeholder="me@example.com" />
+
+              </div>
+              <div class="input-group">
+                <label class="sr-only">Setor</label>
+                <select name="Setor" id="Setor">
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+              </div>
+              <div class="input-group">
+                <label class="sr-only">Cargo</label>
+                <select name="Cargo" id="Cargo">
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+              </div>
+              <div class="input-group">
+                <label class="sr-only">Função</label>
+                <select name="Função" id="Função">
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+              </div>
+              <div class="input-group actions">
+                <label for="">
+                  <input type="checkbox">
+                </label>
+              </div>
+              <div class="input-group">
+                <button type="submit">Salvar</button>
+              </div>
+            </form>
           </div>
         </div>
+      </div>
     </div>
 
   </main>
