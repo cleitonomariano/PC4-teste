@@ -35,33 +35,7 @@ body {
    
  }
 
- button#new{ 
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  margin: auto;
-  /* identical to box height */ 
 
-  text-align: center;  
-  color:#ffffff;
-  background:var(--blue);
-  border: none;
-
- }
- #Novo{
-   display: flex;
-   background-color: var(--blue);
-   width: 73px;
-   height: 35px;
-   border-radius: 4px;
-   margin-left: 805px;
-   margin-top: 16px;
-   margin-bottom: 19px;
-
-   align-items: center;
-   justify-content: center;
- }
  th {  
   height: 53px;
   font-family: Roboto;
@@ -76,15 +50,41 @@ body {
   color: #6B7280;
   text-align: center;
  }
- #calo{
-  background: #F9FAFB;
-  border: 1px solid #E5E7EB;
-  box-sizing: border-box;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0 0 10px 10px;
-  height: 70px; 
-  width: 900px;
- }
-  
 
+  /* botões================= */
+  button#new{ 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: auto;
+  
+    text-align: center;  
+    color:#ffffff;
+    background:var(--blue);
+    border: none;
+  
+   }
+   #Novo{
+     display: flex;
+     background-color: var(--blue);
+     width: 73px;
+     height: 35px;
+     border-radius: 4px;
+     margin-left: 805px;
+     margin-top: 16px;
+     margin-bottom: 19px;
+  
+     align-items: center;
+     justify-content: center;
+   }
+  #calo{
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 0 10px 10px;
+    height: 70px; 
+    width: 900px;
+   }
 
