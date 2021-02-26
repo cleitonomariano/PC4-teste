@@ -16,7 +16,7 @@
 <body>
   <main class="all">
     <div class="container">
-      <table id="data-table">
+      <table class="data-table">
         <thead>
           <tr>
             <th>NOME</th>
@@ -31,9 +31,9 @@
 
         </tbody>
       </table>
-      <div id="novo-btn">
-        <div id="Novo">
-          <button onclick="modal.open()" type="submit" id="new">Novo</button>
+      <div class="novo-btn">
+        <div class="Novo">
+          <button onclick="modal.open()" type="submit" class="new-user">Novo</button>
         </div>
       </div>
     </div>
@@ -48,9 +48,9 @@
       </div>
       <form action="" onsubmit="Form.submit(event)">
         <div class="container-form">
-          <div class="img">
-            <label class="" for="">Foto</label><br>
-            <img src="" alt="">
+          <div >
+            <label class="foto" for="">Foto</label><br>
+            <img class="img" src="" alt="">
             <button class="modificar-img" type="button">Modificar</button>
           </div><br>
           <div class="input-group">
@@ -59,7 +59,7 @@
 
           </div>
 
-          <div id="E-mail" class="input-group">
+          <div class="E-mail" class="input-group">
             <label class="sr-only" for="amount">E-mail</label><br>
             <input type="email" name="E-mail" placeholder="me@example.com" />
           </div>
@@ -84,7 +84,7 @@
               <option value=""></option>
             </select>
           </div><br>
-          <div id="toggle" class="input-group actions">
+          <div class="toggle" class="input-group actions">
             <label class="switch"for="">
               <input type="checkbox">
               <span class="slider"></span>

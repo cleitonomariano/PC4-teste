@@ -25,7 +25,7 @@ body {
   margin-top: 97px;
  }
  /* tabelas=============== */
-  #data-table {
+  .data-table {
    width: 900px;
    height:100%px;
    left: 270px;
@@ -55,7 +55,7 @@ body {
  }
 
   /* botões================= */
-  button#new{ 
+  button.new-user{ 
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -68,7 +68,7 @@ body {
     border: none;
   
    }
-   #Novo{
+   .Novo{
      display: flex;
      background-color: var(--blue);
      width: 73px;
@@ -82,7 +82,7 @@ body {
      justify-content: center;
    }
    
-  #novo-btn{
+  .novo-btn{
     background: #F9FAFB;
     border: 1px solid #E5E7EB;
     box-sizing: border-box;
@@ -158,9 +158,7 @@ form {
 
 }
 
-
-
-img{
+.img{
   width: 40px;
   height:40px;
   border-radius:100%;
@@ -202,7 +200,7 @@ select {
   border-radius: 6px;  
   background-color: #FFFFFF;
 }
-#toggle{
+.toggle{
   display: flex;
   position: relative;
   margin-left: 0;
